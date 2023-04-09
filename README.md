@@ -1,2 +1,2 @@
-# basic-web-programming-meeting-4
+# Basic Web Programming Meeting 4
 Web creation exercise for meeting 4
