@@ -1,0 +1,136 @@
+.henri-septanto-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.henri-septanto-navlink {
+  display: contents;
+}
+.henri-septanto-container1 {
+  gap: 5;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  align-items: center;
+  margin-left: var(--dl-space-space-halfunit);
+  justify-content: center;
+  text-decoration: none;
+}
+.henri-septanto-container1:hover {
+  transform: scale(1.02);
+}
+.henri-septanto-icon {
+  width: 24px;
+  height: 24px;
+}
+.henri-septanto-testimonial {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.henri-septanto-image {
+  width: var(--dl-size-size-xxlarge);
+  height: var(--dl-size-size-xxlarge);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.henri-septanto-testimonial1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.henri-septanto-container2 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.henri-septanto-icon2 {
+  width: var(--dl-size-size-small);
+  margin-bottom: -6rem;
+}
+.henri-septanto-text01 {
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-twounits);
+}
+.henri-septanto-container3 {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.henri-septanto-icon4 {
+  width: var(--dl-size-size-small);
+  margin-top: -6rem;
+}
+.henri-septanto-text04 {
+  font-size: 1.5rem;
+  max-width: 600px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.henri-septanto-text09 {
+  max-width: 600px;
+  text-align: center;
+  font-weight: 600;
+}
+.henri-septanto-text10 {
+  color: var(--dl-color-gray-500);
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 991px) {
+  .henri-septanto-image {
+    margin-bottom: 0px;
+  }
+  .henri-septanto-text01 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .henri-septanto-testimonial {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .henri-septanto-testimonial {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .henri-septanto-image {
+    width: 200px;
+  }
+  .henri-septanto-icon2 {
+    margin-bottom: 0px;
+  }
+  .henri-septanto-text01 {
+    width: auto;
+  }
+  .henri-septanto-icon4 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
